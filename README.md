@@ -2,6 +2,7 @@
 Collection of Shiny Apps 
 
 This folder got two analysis one for the traffic collision data from Los Angeles,CA and another for the Billboard hot 100 songs: 
+1) Traffic Collision:
 	- The data got area name, time of collision, and lattitude-longitude of the collision site.
 	- 
 
