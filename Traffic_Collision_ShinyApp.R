@@ -4,6 +4,14 @@
     # Only four columns (Area_Name, HR[time of day in hour], longitude, and latitude) are considered for this assignment based on the questions asked.
     # data are processed in csv file, rows with NA value were deleted.
 
+# Install Packages if not present
+if(!require("shiny")) install.packages("shiny")
+if(!require("tidyverse")) install.packages("tidyverse")
+if(!require("ggplot2")) install.packages("ggplot2")
+if(!require("dplyr")) install.packages("dplyr")
+if(!require("SnowballC")) install.packages("SnowballC")
+if(!require("leaflet")) install.packages("leaflet")
+
 collision <- read.csv("collision_LA.csv")
 
 collision$lon <- as.numeric(collision$lon)
@@ -19,6 +27,7 @@ library(shiny)
 library(leaflet)
 library(tidyverse)
 library(ggplot2)
+library(SnowballC)
 
 # codes for shiny app
 
