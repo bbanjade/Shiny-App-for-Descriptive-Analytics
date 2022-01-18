@@ -13,3 +13,4 @@ This folder got two analysis one for the traffic collision data from Los Angeles
 	 	- Number of hit per rank
 		- lyrics-songs title chart
 		- wordclouds of song title and lyrics
+
