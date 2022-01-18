@@ -1,7 +1,7 @@
 # Shiny-App-for-Descriptive-Analytics
 Collection of Shiny Apps 
 
-This folder got two analysis one for the traffic collision data from Los Angeles,CA and another for the Billboard hot 100 songs: 
+This folder got two analysis one for the traffic collision data from Los Angeles,CA and another for the Billboard hot 100 songs from 1965 to 2015: 
 1) Traffic Collision:
 	- The data got area name, time of collision, and lattitude-longitude of the collision site.
 	- Libraries used are shiny, leaflet, tidyverse, ggplot2, and SnowballC.
